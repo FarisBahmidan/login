@@ -80,8 +80,14 @@ a {
         font-style: normal;
         font-weight: 700;
         line-height: 1.8rem; /* 110.769% */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
         margin-bottom: max(1vw, 1em);
-        i {
+        svg {
+          width: 35px;
+          height: 35px;
         }
       }
       p {

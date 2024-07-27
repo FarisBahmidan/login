@@ -78,7 +78,15 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 1.8rem; /* 110.769% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
   margin-bottom: max(1vw, 1em);
+}
+.login .container .welcom h1 svg {
+  width: 35px;
+  height: 35px;
 }
 .login .container .welcom p {
   color: #47b2e4;
